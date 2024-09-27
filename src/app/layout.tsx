@@ -4,6 +4,8 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { twMerge } from "tailwind-merge";
 import { Footer } from "@/components/Footer";
+import { BackgroundBeams } from "@/components/ui/background-beams";
+import { BoxesCore } from "@/components/ui/background-boxes";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -11,9 +13,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "John Doe - Developer",
+  title: "Blake Green - Cloud Architect",
   description:
-    "John Doe is a developer, writer and speaker. He is a digital nomad and travels around the world while working remotely.",
+    "Blake Green is a cloud architect with a passion for building scalable and secure solutions in AWS.",
 };
 
 export default function RootLayout({
@@ -32,6 +34,7 @@ export default function RootLayout({
         <Sidebar />
         <div className="lg:pl-2 lg:pt-2 bg-gray-100 flex-1 overflow-y-auto">
           <div className="flex-1 bg-white min-h-screen lg:rounded-tl-xl border border-transparent lg:border-neutral-200 overflow-y-auto">
+            <BoxesCore />
             {children}
             <Footer />
           </div>
