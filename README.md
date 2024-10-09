@@ -1,11 +1,16 @@
-## Sidefolio - Portfolio website template
-
-As seen on [Aceternity UI](https://ui.aceternity.com/templtes/sidefolio)
+## Sidefolio
 
 ## Built with
+
 - Next.js
 - Tailwindcss
 - Framer motion
 - MDX
+- SST
 
-Checkout all the templates at [Aceternity UI](https://ui.aceternity.com/templates)
+## Getting Started
+
+```bash
+npm install
+sst dev
+```
