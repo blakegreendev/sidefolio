@@ -1,22 +1,15 @@
-import sidefolioAceternity from "../../public/images/sidefolio-aceternity-2.png";
-import sidefolioAceternity2 from "../../public/images/sidefolio-aceternity-2.png";
-import sidefolioAlgochurn from "../../public/images/sidefolio-algochurn.png";
-import sidefolioAlgochurn2 from "../../public/images/sidefolio-algochurn.png";
-import sidefolioMoonbeam from "../../public/images/sidefolio-moonbeam.png";
-import sidefolioMoonbeam2 from "../../public/images/sidefolio-moonbeam-2.png";
-import sidefolioTailwindMasterKit from "../../public/images/sidefolio-tailwindmasterkit.png";
-import sidefolioTailwindMasterKit2 from "../../public/images/sidefolio-tailwindmasterkit-2.png";
+import rapidEPR from "../../public/images/rapidscreenshot.png";
 
 export const products = [
   {
     href: "https://rapidepr.com",
     title: "RapidEPR",
     description:
-      "A design and development studio that focuses on building quality apps.",
-    thumbnail: sidefolioAceternity,
-    images: [sidefolioAceternity, sidefolioAceternity2],
+      "An AI-powered tool that helps military service members write their performance reviews as well as awards and decorations.",
+    thumbnail: rapidEPR,
+    images: [rapidEPR],
     stack: ["Nextjs", "Tailwindcss"],
-    slug: "aceternity",
+    slug: "rapidepr",
     content: (
       <div>
         <p>
